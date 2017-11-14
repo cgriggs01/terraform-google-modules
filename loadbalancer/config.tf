@@ -19,6 +19,6 @@ module "mini_module" {
 
   firewall_project = ""
   network          = "default"
-  project          = "Module Testing"
+  project          = "${var.project}"
   session_affinity = "NONE"
 }
