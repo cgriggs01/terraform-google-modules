@@ -4,7 +4,7 @@ module "mini_module" {
   name         = "group1-lb"
   service_port = 80
   target_tags  = []
-  region       = "us-west1"
+  region       = "us-central1"
 
   firewall_project = ""
   network          = "default"
