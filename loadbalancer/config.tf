@@ -1,3 +1,5 @@
+variable "region" { default = "us-west1" }
+
 module "mini_module" {
   source = "GoogleCloudPlatform/lb/google"
 
