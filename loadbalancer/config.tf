@@ -14,7 +14,7 @@ module "mini_module" {
 
   name         = "group1-lb"
   service_port = 80
-  target_tags  = []
+  target_tags  = ["test config"]
   region       = "${var.region}"
 
   firewall_project = ""
