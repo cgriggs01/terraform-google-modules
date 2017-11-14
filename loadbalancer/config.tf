@@ -1,5 +1,13 @@
 variable "region" { default = "us-west1" }
 
+
+
+provider "google" {
+  credentials = "${var.creds}"
+  project = "${var.project}"
+  region = "${var.region}"
+}
+
 module "mini_module" {
   source = "GoogleCloudPlatform/lb/google"
 
