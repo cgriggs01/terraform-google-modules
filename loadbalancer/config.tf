@@ -2,7 +2,6 @@ variable "region" {
   default = "us-west1"
 }
 
-variable "creds" {}
 variable "project" {}
 
 provider "google" {
